@@ -6,20 +6,20 @@
   font-size: 14px;
 }
 body {
-	background-image: url("http://s3.amazonaws.com/WiT/assets/hackathon-2d6234121d63aa13dc26d5fd6df45766.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
+  background-image: url("http://s3.amazonaws.com/WiT/assets/hackathon-2d6234121d63aa13dc26d5fd6df45766.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 /*MENU*/
 header {
-	border-bottom: 1px solid #686;
+  border-bottom: 1px solid #686;
   margin-bottom: 15px;
 
   height: 90px;
   background-color: #000;
 
-	-moz-box-shadow: #ccc, 0, 3px, 6px;
+  -moz-box-shadow: #ccc, 0, 3px, 6px;
   -webkit-box-shadow: #ccc, 0, 3px, 6px;
   box-shadow: #ccc, 0, 3px, 6px;
 
@@ -32,7 +32,7 @@ header nav {
   height: 100%;
 }
 header nav ul {
-	height: 100%;
+  height: 100%;
 }
 header nav ul li {
   display: inline-block;
@@ -46,8 +46,8 @@ header nav ul li {
 	border-bottom: 3px solid #FFF; 
 }
 header nav ul li a {
-	text-transform: uppercase;
-	font-family: "Raleway";
+  text-transform: uppercase;
+  font-family: "Raleway";
   font-size: 16px;
   font-weight: 300;
   color: #FFF;
@@ -79,7 +79,7 @@ header nav ul li a {
 
 /*CONTENT*/
 #content {
-	background-color: #FFF;
+  background-color: #FFF;
   margin: 1% 5%;
   opacity: 0.9;
   font-family: "Raleway";
