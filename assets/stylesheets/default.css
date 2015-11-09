@@ -1,8 +1,9 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Raleway:400,700";
+@import url(https://fonts.googleapis.com/css?family=Khula);
 
 * {
-  font-family: "Pacifico", "Georgia", serif;
+  /*font-family: "Pacifico", "Georgia", serif;*/
   font-size: 14px;
 }
 body {
@@ -77,12 +78,36 @@ header nav ul li a {
 }
 /*LOGO*/
 
+/*BANNER*/
+#banner {
+  background-image: url("http://static.squarespace.com/static/52dd2f4be4b0fb2ead933f71/52dd3a3be4b0089d67004ecb/52dd3a4de4b0fc4c92c744f4/1390230094631/bmorebanner_two.jpg?format=1500w");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 400px;
+  margin: 1% 5%;
+  opacity: 0.9;
+  text-align: center;
+  border: 1px solid;
+}
+/*BANNER*/
+
 /*CONTENT*/
 #content {
   background-color: #FFF;
   margin: 1% 5%;
   opacity: 0.9;
-  font-family: "Raleway";
+  font-family: "Khula";
   text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+}
+#content h1 {
+  font-size: 30px;
 }
 /*CONTENT*/
+
+/*FOOTER*/
+#footer {
+
+}
+/*FOOTER*/
