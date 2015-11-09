@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import "http://fonts.googleapis.com/css?family=Raleway:400,700";
+
 * {
   font-family: "Pacifico", "Georgia", serif;
   font-size: 14px;
@@ -5,6 +8,8 @@
 body {
 	background-color: #f5f5f5;
 }
+
+/*MENU*/
 header {
 	border-bottom: 1px solid #686;
   margin-bottom: 15px;
@@ -18,27 +23,32 @@ header {
 }
 header nav {
   float: right;
-  display: table;
+  height: 100%;
 }
 header nav ul {
-	display: table-cell;
-	vertical-align: middle;
-	height: 70px;
+	height: 100%;
 }
 header nav ul li {
   display: inline-block;
   text-align: center;
-  background-color: #333;
-  padding: 3px 10px 7px 10px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #303030; 
+  background-color: #47a;
+  padding-top: 5%;
+  margin-left: 20px;
+  transition: 0.2s;
+}
+header nav ul li:hover {
+	border-bottom: 3px solid #FFF; 
 }
 header nav ul li a {
-  font-size: 12px;
-  font-weight: 600;
-  color: #fff;
+	text-transform: uppercase;
+	font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFF;
 }
+/*MENU*/
+
+/*LOGO*/
 #header-wrap h1 {
   float: left;
   margin-top: 0.7%; 
@@ -54,6 +64,10 @@ header nav ul li a {
   margin: 0 auto;
   height: 70px;
 }
+/*LOGO*/
+
+/*CONTENT*/
 #content {
   margin: 1% 5%;
 }
+/*CONTENT*/
