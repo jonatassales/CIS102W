@@ -8,14 +8,14 @@ li { list-style: none; }
 
 .both {clear: both;} 
 .clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
 } 
 .clearfix:before {
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
 }
