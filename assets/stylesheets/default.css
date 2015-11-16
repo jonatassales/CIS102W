@@ -44,7 +44,7 @@ header nav ul li {
   transition: 0.2s;
 }
 .menu-item:hover {
-	border-bottom: 3px solid #FFF; 
+	border-bottom: 3px solid #FFF;
 }
 header nav ul li a {
   text-transform: uppercase;
@@ -65,7 +65,7 @@ header nav ul li a {
 
 /*LOGO*/
 #logo {
-  height: 40px; 
+  height: 40px;
   position: absolute;
   top: 1.5%;
   left: 43%;
@@ -83,7 +83,7 @@ header nav ul li a {
   background-image: url("http://static.squarespace.com/static/52dd2f4be4b0fb2ead933f71/52dd3a3be4b0089d67004ecb/52dd3a4de4b0fc4c92c744f4/1390230094631/bmorebanner_two.jpg?format=1500w");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 400px;
+  height: 300px;
   margin: 1% 5%;
   opacity: 0.9;
   text-align: center;
@@ -107,7 +107,11 @@ header nav ul li a {
 /*CONTENT*/
 
 /*FOOTER*/
-#footer {
-
+footer {
+  text-align: center;
+  color: #FFF;
+  text-shadow: 1px 1px #000;
+  margin-bottom: 1.5%;
+  font-family: "Raleway";
 }
 /*FOOTER*/
